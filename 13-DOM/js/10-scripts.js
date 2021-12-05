@@ -3,6 +3,7 @@ enlace.textContent= 'Nuevo Enlace';
 enlace.href='./nuevo-enlace';
 enlace.target = '_blank';
 enlace.setAttribute('data-enlace', 'Nuevo Enlace')
+enlace.classList.add('alguna-clase');
 console.log(enlace);
 
 
