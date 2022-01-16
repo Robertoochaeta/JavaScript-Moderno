@@ -13,3 +13,7 @@ navegacion.insertBefore(enlace, navegacion.children[1]);
 function mifuncion(){
     alert('Diste Click')
 }
+// Crear un card de forma dinamica
+const parrafo1= document.createElement('p');
+const parrafo2 = document.createElement('p');
+const parrafo3 = document.createElement('p');
