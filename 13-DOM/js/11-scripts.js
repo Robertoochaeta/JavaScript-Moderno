@@ -3,5 +3,14 @@ const footer =document.querySelector('.footer');
 
 btnFlotante.addEventListener('click',mostrarOcultarFooter);
 function mostrarOcultarFooter(){
-    footer.classList.add('activo');
+    if(footer.classList.contains('activo')){
+        footer.classList.remove('activo')
+        this.classList.remove('activo')
+        this.textContent= 'Abrir'
+    }else{
+
+        footer.classList.add('activo');
+        this.classList.add('activo');
+        this.textContent= 'Cerrar';
+    }
 }
