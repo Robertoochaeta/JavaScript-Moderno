@@ -1,5 +1,5 @@
 const busqueda = document.querySelector('.busqueda');
 
-busqueda.addEventListener('keydown',()=>{
+busqueda.addEventListener('keyup',()=>{
 console.log('Escribiendo')
 })
