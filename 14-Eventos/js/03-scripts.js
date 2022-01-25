@@ -1,5 +1,8 @@
 const busqueda = document.querySelector('.busqueda');
 
-busqueda.addEventListener('keyup',()=>{
-console.log('Escribiendo')
+busqueda.addEventListener('input',(e)=>{
+    if(e.target.value=== ''){
+        console.log('Fallo la validacion')
+    }
+console.log(e.target.value)
 })
